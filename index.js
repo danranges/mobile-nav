@@ -1,4 +1,4 @@
-function addNavEvents(navButton) {
+export default function addNavEvents(navButton) {
   document.addEventListener('click', (e) => {
     const isNavButton = e.target.matches(`[${navButton}]`);
 
